@@ -1,0 +1,41 @@
+<!-- Events Section -->
+<section id="dates">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Termine</h2>
+                <h3 class="section-subheading text-muted">
+                    Hier findest du alle bevorstehenden Termine.
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Veranstaltung</th>
+                        <th>Details</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for event in site.posts reversed %}
+                        {% if event.category contains 'event' %}
+                            <tr>
+                                <th>{{ event.date | date: '%B %d, %Y' }}</th>
+                                <td>{{ event.title }}</td>
+                                <td>
+                                    <a href="#eventModal{{ event.modal-id }}" data-toggle="modal">
+                                        mehr
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

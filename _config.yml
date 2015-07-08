@@ -1,0 +1,57 @@
+url: http://chrisbr.github.io/skiclub/
+baseurl: /skiclub/
+
+# Site settings
+title: Skiclub Kühlenfels
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503
+  secondary-dark: 333
+
+# board
+people:
+  - name: Uwe Wiegärtner
+    pic: 1
+    position: 1. Vorstand
+    email: your-email@domain.com
+
+  - name: Frank Eckert
+    pic: 1
+    position: 2. Vorstand
+    email: your-email@domain.com
+
+  - name: Oliver Sander
+    pic: 1
+    position: Sportdirektor
+    email: your-email@domain.com
+
+  - name: Stefan Langhojer
+    pic: 1
+    position: Schriftführer
+    email: your-email@domain.com
+
+  - name: Georg Herzing
+    pic: 1
+    position: Kassenwart
+    email: your-email@domain.com
+
+# Social networks
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Kühlenfels
+
+# Build settings
+markdown: kramdown
+permalink: pretty

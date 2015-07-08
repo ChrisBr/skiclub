@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="page-top" class="index">
+<div id="post-nav">
+    {% include navigation.html %}
+</div>
+
+{% for post in site.posts %}
+    {% if post.category contains 'post' %}
+        <section class="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2><a class="post-link"
+                               href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}</a></h2>
+
+                        <p class="small">
+                            {{ post.date | date: "%b %-d, %Y" }} von {{ post.author }}
+                        </p>
+                        {{ post.excerpt }}
+                        <a href="{{ post.url | prepend: site.baseurl }}">Mehr...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+{% endfor %}
+
+{% include js.html %}
+</body>
+</html>
