@@ -48,12 +48,8 @@ people:
 
 # Social networks
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com
 
 # Postal address (add as many lines as necessary)
 address:
