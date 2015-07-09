@@ -15,12 +15,12 @@ color:
 # board
 people:
   - name: Uwe Wiegärtner
-    pic: 1
+    pic: uwe
     position: 1. Vorstand
     email: your-email@domain.com
 
   - name: Frank Eckert
-    pic: 1
+    pic: frank
     position: 2. Vorstand
     email: your-email@domain.com
 
