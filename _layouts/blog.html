@@ -19,7 +19,9 @@
                         <p class="small">
                             {{ post.date | date: "%b %-d, %Y" }} von {{ post.author }}
                         </p>
-                        {{ post.excerpt }}
+
+                        {{ post.content | truncatewords: 80 }}
+
                         <a href="{{ post.url | prepend: site.baseurl }}">Mehr...</a>
                     </div>
                 </div>

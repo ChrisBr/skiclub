@@ -9,9 +9,9 @@ author: Christian Bruckmayer
 
 <p>
 Willkommen auf unserem neuem Internetauftritt.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Und sogar Emoji funktionieren :exclamation: :clap: :clap: :clap:
+In your face :punch:
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
 </p>
 <!-- more -->
 
