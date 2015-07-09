@@ -13,31 +13,38 @@ color:
   secondary-dark: 333
 
 # board
+# Note that the emails are encoded in ROT13 for obfuscating
+# http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
 people:
   - name: Uwe Wiegärtner
     pic: uwe
     position: 1. Vorstand
-    email: your-email@domain.com
+    email: Uwe.Wiegaertner@Allianz.de
+    email_rot13: Hjr.Jvrtnregare@Nyyvnam.qr
 
   - name: Frank Eckert
     pic: frank
     position: 2. Vorstand
-    email: your-email@domain.com
+    email: f-eckert@web.de
+    email_rot13: s-rpxreg@jro.qr
 
   - name: Oliver Sander
     pic: 1
     position: Sportdirektor
-    email: your-email@domain.com
+    email: sanderoliver@t-online.de
+    email_rot13: fnaqrebyvire@g-bayvar.qr
 
   - name: Stefan Langhojer
     pic: 1
     position: Schriftführer
-    email: your-email@domain.com
+    email: s.langhojer@web.de
+    email_rot13: f.ynatubwre@jro.qr
 
   - name: Georg Herzing
     pic: 1
     position: Kassenwart
-    email: your-email@domain.com
+    email: georg.herzing@web.de
+    email_rot13: trbet.uremvat@jro.qr
 
 # Social networks
 social:
