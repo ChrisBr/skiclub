@@ -1,5 +1,7 @@
 url: http://chrisbr.github.io/skiclub/
 baseurl: /skiclub/
+webmaster: webmaster@foo.bar
+webmaster_rot13: webmaster@foo.bar
 
 # Site settings
 title: Skiclub Kühlenfels
@@ -52,8 +54,14 @@ social:
     url: https://www.facebook.com
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: Kühlenfels
+impressum:
+  name: Uwe Wiegärtner
+  address: Meine Adresse
+  zip: 91278
+  city: Pottenstein
+  phone: +49 9243 123456
+  email: email@domain.de
+  email_rot13: email@domain.de
 
 # Build settings
 markdown: kramdown

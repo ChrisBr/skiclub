@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="page-top" class="post">
+<div id="post-nav">
+    {% include navigation.html %}
+</div>
+<section class="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <h1>Impressum</h1>
+                <h4>Skiclub Kühlenfels e.V.</h4>
+                <address>
+                    <strong>{{ site.impressum.name }}</strong><br>
+                    {{ site.impressum.address }}<br>
+                    {{ site.impressum.zip }} {{ site.impressum.city }}<br>
+                    <abbr title="Telefonnummer">Tel.</abbr> {{ site.impressum.phone }}<br>
+                    <abbr title="Email-Adresse">Email</abbr>
+                    <script type="text/javascript">
+                        document.write("<n uers=\"znvygb:{{ site.impressum.email_rot13 }}\" ery=\"absbyybj\">{{ site.impressum.email_rot13 }}</n>".replace(/[a-zA-Z]/g,
+                                function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+                    </script>
+                </address>
+                <p>
+                    Das Impressum gilt für <strong>{{ site.url }}</strong>
+                </p>
+                <p>
+                    In Bezug auf die Homepage schreiben Sie an:
+                    <script type="text/javascript">
+                        document.write("<n uers=\"znvygb:{{ site.webmaster_rot13 }}\" ery=\"absbyybj\">{{ site.webmaster_rot13 }}</n>".replace(/[a-zA-Z]/g,
+                                function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+                    </script>
+                </p>
+                <p>
+                    Zur statistischen Auswertung der Besucherzugriffe kommt die Open-Source-Software <a href="http://piwik.org/">Piwik</a> zum Einsatz.
+                </p>
+                <p>
+                    Diese Internetseite wurde mit <a href="http://getbootstrap.com/">Bootstrap</a> und <a href="http://jekyllrb.com/">Jekyll</a> realisiert.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+    {% include js.html %}
+</body>
+</html>
