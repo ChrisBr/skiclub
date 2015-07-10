@@ -23,6 +23,10 @@ people:
     position: 1. Vorstand
     email: Uwe.Wiegaertner@Allianz.de
     email_rot13: Hjr.Jvrtnregare@Nyyvnam.qr
+    address: Meine Adresse
+    zip: 91278
+    city: Pottenstein
+    phone: +49 9243 123456
 
   - name: Frank Eckert
     pic: frank
@@ -52,16 +56,6 @@ people:
 social:
   - title: facebook
     url: https://www.facebook.com
-
-# Postal address (add as many lines as necessary)
-impressum:
-  name: Uwe Wiegärtner
-  address: Meine Adresse
-  zip: 91278
-  city: Pottenstein
-  phone: +49 9243 123456
-  email: email@domain.de
-  email_rot13: email@domain.de
 
 # Build settings
 markdown: kramdown

@@ -12,13 +12,13 @@
                 <h1>Impressum</h1>
                 <h4>Skiclub Kühlenfels e.V.</h4>
                 <address>
-                    <strong>{{ site.impressum.name }}</strong><br>
-                    {{ site.impressum.address }}<br>
-                    {{ site.impressum.zip }} {{ site.impressum.city }}<br>
-                    <abbr title="Telefonnummer">Tel.</abbr> {{ site.impressum.phone }}<br>
+                    <strong>{{ site.people.first.name }}</strong><br>
+                    {{ site.people.first.address }}<br>
+                    {{ site.people.first.zip }} {{ site.people.first.city }}<br>
+                    <abbr title="Telefonnummer">Tel.</abbr> {{ site.people.first.phone }}<br>
                     <abbr title="Email-Adresse">Email</abbr>
                     <script type="text/javascript">
-                        document.write("<n uers=\"znvygb:{{ site.impressum.email_rot13 }}\" ery=\"absbyybj\">{{ site.impressum.email_rot13 }}</n>".replace(/[a-zA-Z]/g,
+                        document.write("<n uers=\"znvygb:{{ site.people.first.email_rot13 }}\" ery=\"absbyybj\">{{ site.people.first.email_rot13 }}</n>".replace(/[a-zA-Z]/g,
                                 function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
                     </script>
                 </address>
