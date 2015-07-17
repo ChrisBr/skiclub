@@ -19,7 +19,7 @@ color:
 # http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
 people:
   - name: Uwe Wiegärtner
-    pic: uwe
+    pic: uwe2
     position: 1. Vorstand
     email: Uwe.Wiegaertner@Allianz.de
     email_rot13: Hjr.Jvrtnregare@Nyyvnam.qr
@@ -35,13 +35,13 @@ people:
     email_rot13: s-rpxreg@jro.qr
 
   - name: Oliver Sander
-    pic: olli
+    pic: olli2
     position: Sportdirektor
     email: sanderoliver@t-online.de
     email_rot13: fnaqrebyvire@g-bayvar.qr
 
   - name: Stefan Langhojer
-    pic: 1
+    pic: stefan
     position: Schriftführer
     email: s.langhojer@web.de
     email_rot13: f.ynatubwre@jro.qr
