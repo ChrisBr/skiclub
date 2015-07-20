@@ -23,10 +23,10 @@ people:
     position: 1. Vorstand
     email: Uwe.Wiegaertner@Allianz.de
     email_rot13: Hjr.Jvrtnregare@Nyyvnam.qr
-    address: Meine Adresse
+    address: Zur Allee 52
     zip: 91278
-    city: Pottenstein
-    phone: +49 9243 123456
+    city: Pottenstein  / OT Kühlenfels
+    phone: 09243 903045
 
   - name: Frank Eckert
     pic: frank
