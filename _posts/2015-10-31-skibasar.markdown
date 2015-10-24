@@ -5,6 +5,7 @@ category: event
 layout: default
 modal-id: 1
 date: 2015-10-31
+pdf: Skibasar.pdf
 location: Sportheim Kühlenfels
 ---
 Annahme: Freitag 30.10.2015 von 16:00 bis 18:30 Uhr

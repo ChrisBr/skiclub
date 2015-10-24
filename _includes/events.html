@@ -17,18 +17,26 @@
                         <th>Datum</th>
                         <th>Veranstaltung</th>
                         <th>Details</th>
+                        <th>Download</th>
                     </tr>
                     </thead>
                     <tbody>
                     {% for event in site.posts reversed %}
                         {% if event.category contains 'event' %}
                             <tr>
-                                <th>{{ event.date | date: '%B %d, %Y' }}</th>
+                                <td>{{ event.date | date: '%B %d, %Y' }}</td>
                                 <td>{{ event.title }}</td>
                                 <td>
                                     <a href="#eventModal{{ event.modal-id }}" data-toggle="modal">
                                         mehr
                                     </a>
+                                </td>
+                                <td>
+                                    {% if event.pdf %}
+                                    <a href="data/{{ event.pdf }}">
+                                        download
+                                    </a>
+                                    {% endif %}
                                 </td>
                             </tr>
                         {% endif %}
