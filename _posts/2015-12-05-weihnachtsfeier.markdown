@@ -6,6 +6,5 @@ layout: default
 modal-id: 3
 date: 2015-12-05
 location: Sportheim Kühlenfels
-description: Mehr Informationen folgen demnächst.
-
 ---
+ Mehr Informationen folgen demnächst.
