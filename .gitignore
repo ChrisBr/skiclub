@@ -37,3 +37,6 @@ Icon
 .Trashes
 .idea
 .directory
+
+# Don't include glynn file
+_glynn.yml

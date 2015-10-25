@@ -3,7 +3,7 @@ title: Kinderskiausflug
 subtitle: Kinderskiausflug
 category: event
 layout: default
-modal-id: 2
+modal-id: 4
 date: 2016-01-02
 location: Saalback Hinterglemm
 pdf: KinderSkifahrt.pdf

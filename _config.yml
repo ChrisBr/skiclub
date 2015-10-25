@@ -1,12 +1,15 @@
-url: http://chrisbr.github.io/skiclub/
-baseurl: /skiclub/
+url: http://www.kuehlenfels.com/kuehlenfels/Vereine/Skiclub
+baseurl: /main.htm
 webmaster: christian@bruckmayer.net
 webmaster_rot13: puevfgvna@oehpxznlre.arg
+timezone: Europe/Berlin
+
+exclude: [ Gemfile, Gemfile.lock, LICENSE, README.md ]
 
 # Site settings
 title: Skiclub Kühlenfels
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: christian@bruckmayer.net
+description: "Internetauftritt des Skiclub Kühlenfels."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -19,7 +22,7 @@ color:
 # http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
 people:
   - name: Uwe Wiegärtner
-    pic: uwe2
+    pic: uwe
     position: 1. Vorstand
     email: Uwe.Wiegaertner@Allianz.de
     email_rot13: Hjr.Jvrtnregare@Nyyvnam.qr
@@ -35,7 +38,7 @@ people:
     email_rot13: s-rpxreg@jro.qr
 
   - name: Oliver Sander
-    pic: olli2
+    pic: olli
     position: Sportdirektor
     email: sanderoliver@t-online.de
     email_rot13: fnaqrebyvire@g-bayvar.qr

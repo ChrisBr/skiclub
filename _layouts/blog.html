@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h2><a class="post-link"
-                               href="{{ post.url | prepend: site.baseurl }}">
+                               href="{{ post.url | prepend: site.url }}">
                             {{ post.title }}</a></h2>
 
                         <p class="small">
@@ -22,7 +22,7 @@
 
                         {{ post.content | truncatewords: 80 }}
 
-                        <a href="{{ post.url | prepend: site.baseurl }}">Mehr...</a>
+                        <a href="{{ post.url | prepend: site.url }}">Mehr...</a>
                     </div>
                 </div>
             </div>

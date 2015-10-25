@@ -9,29 +9,29 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ '/#' | prepend: site.baseurl }}">{{site.title}}</a>
+            <a class="navbar-brand page-scroll" href="{{ '#' | prepend: site.baseurl | prepend: site.url }}">{{site.title}}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
-                    <a href="{{ '/#' | prepend: site.baseurl }}"></a>
+                    <a href="{{ '#' | prepend: site.baseurl | prepend: site.url }}"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ '/#about' | prepend: site.baseurl }}">Über Uns</a>
+                    <a class="page-scroll" href="{{ '#about' | prepend: site.baseurl | prepend: site.url }}">Über Uns</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ '/#board' | prepend: site.baseurl }}">Vorstand</a>
+                    <a class="page-scroll" href="{{ '#board' | prepend: site.baseurl | prepend: site.url }}">Vorstand</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ '/#dates' | prepend: site.baseurl }}">Termine</a>
+                    <a class="page-scroll" href="{{ '#dates' | prepend: site.baseurl | prepend: site.url }}">Termine</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ '/#membership' | prepend: site.baseurl }}">Mitgliedschaft</a>
+                    <a class="page-scroll" href="{{ '#membership' | prepend: site.baseurl | prepend: site.url }}">Mitgliedschaft</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
+                    <a class="page-scroll" href="{{ '/blog' | prepend: site.url }}">Blog</a>
                 </li>
             </ul>
         </div>

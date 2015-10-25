@@ -15,7 +15,7 @@
                             <div class="modal-body">
                                 <h2>{{ event.title }}</h2>
                                 <hr class="star-primary">
-                                <h3>Zeit: {{ event.date | date: '%B %d, %Y' }}</h3>
+                                <h3>Zeit: {{ event.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</h3>
                                 <h3>Ort: {{ event.location }}</h3>
                                 <p>{{ event.content }}</p>
                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
