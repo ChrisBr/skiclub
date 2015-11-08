@@ -3,7 +3,7 @@ title: Monatsversammlung
 subtitle: Monatsversammlung
 category: event
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2015-11-13
 location: Sportheim Kühlenfels
 ---

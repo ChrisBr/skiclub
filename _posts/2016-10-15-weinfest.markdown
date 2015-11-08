@@ -1,0 +1,12 @@
+---
+title: Weinfest
+subtitle: Weinfest
+category: event
+layout: default
+modal-id: 8
+date: 2016-10-15
+location: Stefferstadl
+pdf:
+---
+
+Weitere Informationen folgen in Kürze.
