@@ -3,10 +3,9 @@ title: Weinfest
 subtitle: Weinfest
 category: event
 layout: default
-modal-id: 8
-date: 2016-10-15
+modal-id: 9
+date: 2018-10-20
 location: Stefferstadl
 pdf:
 ---
-
-Weitere Informationen folgen in Kürze.
+Weinfest im Stefferstadl.

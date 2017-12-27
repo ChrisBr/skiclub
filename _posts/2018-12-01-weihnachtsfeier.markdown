@@ -1,12 +1,11 @@
 ---
-title: Vatertagsfest
-subtitle: Vatertagsfest
+title: Weihnachtsfeier
+subtitle: Weihnachtsfeier
 category: event
 layout: default
-modal-id: 7
-date: 2016-05-05
+modal-id: 11
+date: 2018-12-01
 location: tba
 pdf:
 ---
-
 Weitere Informationen folgen in Kürze.

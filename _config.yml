@@ -17,6 +17,8 @@ color:
   secondary: fec503
   secondary-dark: 333
 
+future: true
+
 # board
 # Note that the emails are encoded in ROT13 for obfuscating
 # http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
@@ -50,7 +52,7 @@ people:
     email_rot13: f.ynatubwre@jro.qr
 
   - name: Georg Herzing
-    pic: 1
+    pic: georg
     position: Kassenwart
     email: georg.herzing@web.de
     email_rot13: trbet.uremvat@jro.qr
