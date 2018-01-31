@@ -6,7 +6,7 @@ layout: default
 modal-id: 4
 date: 2018-03-01
 location: Klausen
-pdf: Erwachsenen_Skiausflug2018.pdf
+pdf:
 ---
 Erwachsenenskiausflug nach Klausen in Südtirol vom 01.03 - 04.03.2018 in das **Skigebiet „Dolomiten“**
 
