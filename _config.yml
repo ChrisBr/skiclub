@@ -1,10 +1,8 @@
-url: http://www.kuehlenfels.com/kuehlenfels/Vereine/Skiclub
-baseurl: /main.htm
 webmaster: christian@bruckmayer.net
 webmaster_rot13: puevfgvna@oehpxznlre.arg
 timezone: Europe/Berlin
 
-exclude: [ Gemfile, Gemfile.lock, LICENSE, README.md ]
+exclude: [ Gemfile, Gemfile.lock, LICENSE, README.md, vendor ]
 
 # Site settings
 title: Skiclub Kühlenfels
@@ -66,5 +64,5 @@ social:
 markdown: kramdown
 permalink: pretty
 
-gems:
+plugins:
   - jemoji
