@@ -24,8 +24,7 @@ people:
   - name: Uwe Wiegärtner
     pic: uwe
     position: 1. Vorstand
-    email: Uwe.Wiegaertner@Allianz.de
-    email_rot13: Hjr.Jvrtnregare@Nyyvnam.qr
+    email: uwe@skiclub-kuehlenfels.de
     address: Zur Allee 52
     zip: 91278
     city: Pottenstein  / OT Kühlenfels
@@ -34,26 +33,22 @@ people:
   - name: Frank Eckert
     pic: frank
     position: 2. Vorstand
-    email: f-eckert@web.de
-    email_rot13: s-rpxreg@jro.qr
+    email: frank@skiclub-kuehlenfels.de
 
   - name: Oliver Sander
     pic: olli
     position: Sportdirektor
-    email: sanderoliver@t-online.de
-    email_rot13: fnaqrebyvire@g-bayvar.qr
+    email: oliver@skiclub-kuehlenfels.de
 
   - name: Stefan Langhojer
     pic: stefan
     position: Schriftführer
-    email: s.langhojer@web.de
-    email_rot13: f.ynatubwre@jro.qr
+    email: stefan@skiclub-kuehlenfels.de
 
   - name: Georg Herzing
     pic: georg
     position: Kassenwart
-    email: georg.herzing@web.de
-    email_rot13: trbet.uremvat@jro.qr
+    email: georg@skiclub-kuehlenfels.de
 
 # Social networks
 social:
