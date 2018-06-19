@@ -40,3 +40,6 @@ Icon
 
 # Don't include glynn file
 _glynn.yml
+
+.bundle
+vendor
