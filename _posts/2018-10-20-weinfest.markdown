@@ -6,6 +6,6 @@ layout: default
 modal-id: 9
 date: 2018-10-20
 location: Stefferstadl
-pdf:
+pdf: weinfest.pdf
 ---
 Weinfest im Stefferstadl.
